@@ -1,0 +1,203 @@
+html body {
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 1.4;
+}
+
+@media only screen and (width:640px) {
+  .container1 {
+    width: 640px;
+  }
+}
+
+.container1 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  height: 36px;
+  width: 960px;
+  margin-top: 1rem;
+  margin-left: 300px;
+  color: white;
+  background-color: cadetblue;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+ .container1 {
+   width: 100%;
+   position: absolute;
+   margin-top: 0px;
+ }
+}
+
+.container1 img{
+  display: inline-block;
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+.container1 h3 {
+  display: inline-block;
+  flex-grow: 4;
+  padding-left: 1rem;
+  padding-right: 23rem;
+}
+ /* i don't understand how to make things hide and show at different sizes. If you can help when
+ critiqueing I would appreciate it! thank you*/
+@media only screen and (min-width:960px) {
+  .container1 #mobilenav {
+    display: none;
+  }
+}
+
+.container1 a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#banner img {
+  display: block;
+  height: 30rem;
+  background-size: cover;
+}
+
+#pullquote {
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 14rem;
+  margin-left: 42rem;
+}
+
+.container2 h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 1.5rem;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-left: 300px;
+  width: 960px;
+}
+
+ #exams img {
+  display: inline-block;
+  width: 3.5rem;
+  margin-right: 6rem;
+}
+
+#exams h3 {
+  position: relative;
+  width: 3.5rem;
+  text-align: center;
+  justify-content: center;
+  margin-right: 6rem;}
+
+#fittings img {
+  display: inline-block;
+  width: 5rem;
+  margin-right: 6rem;
+}
+
+#fittings h3 {
+  position: relative;
+  margin-top: 1.25rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+#delivery img {
+  display: inline-block;
+  width: 3.5rem;
+}
+
+#delivery h3 {
+  position: relative;
+  margin-top: 2rem;
+  width: 5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 4rem;
+  width: 960px;
+  padding-left: 350px;
+}
+
+#philosophy {
+  width: 35%;
+  height: 10rem;
+  margin-top: 3rem;
+  margin-right: 5%;
+}
+
+#philosophy  h2 {
+  display: inline-block;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  height: 2.25rem;
+  padding: 0.5rem 1.25rem;
+  margin-right: 5%;
+}
+
+#philosophy p {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+#appointments {
+  width: 35%;
+  height: 10rem;
+  margin-top: 3rem;
+}
+
+
+#appointments h2 {
+  display: inline-block;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  height: 2.25rem;
+  padding: 0.5rem 1.25rem;
+}
+
+#appointments p {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.footer {
+  display: flex;
+  width: 960px;
+  height: 9.5rem;
+  background-color: azure;
+  margin-top: 5rem;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
